@@ -1,0 +1,12 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 20px;
+  }

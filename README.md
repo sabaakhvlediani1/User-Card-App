@@ -15,9 +15,10 @@ A React application for creating and managing a personal "User Card App" page wh
 The User Card App allows users to create a customizable link page where you can add and manage various links. It includes a modal component for adding new links dynamically.
 
 ## Screenshots
-![Screenshot 2024-07-02 135619](https://github.com/sabaakhvlediani1/Link-in-Bio/assets/74502365/990127e6-34b8-44d4-aa85-cd9f58ae4d1f)
-![Screenshot 2024-07-02 135754](https://github.com/sabaakhvlediani1/Link-in-Bio/assets/74502365/541013ba-0a4f-4ff8-996d-271c4e0cecd5)
-![Screenshot 2024-07-02 135844](https://github.com/sabaakhvlediani1/Link-in-Bio/assets/74502365/5a9886b5-f9bf-415c-8085-4e3589877de9)
+![Screenshot 2024-07-02 135619](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/4d4bebe9-c763-4921-a24e-e1973c696819)
+![Screenshot 2024-07-02 135754](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/a8351b85-781f-48c5-852c-30ec98229fa8)
+![Screenshot 2024-07-02 135844](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/ad81498d-53a9-4c61-909d-ece391f54e41)
+
 
 
 ## Features

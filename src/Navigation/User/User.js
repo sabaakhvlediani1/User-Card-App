@@ -6,14 +6,26 @@ import ButtonComponent from "../../components/ButtonComponent";
 import IconComponent from "../../components/IconComponent";
 
 const User = () => {
-  const user = useSelector((state) => state.user) || { links: [], social: {} };
+  const user = useSelector((state) => state.user) || {
+    links: [],
+    social: {},
+    buttonColor: "#000000",
+    iconColor: "#ffffff",
+    backgroundColor: "#ffffff", // Default background color
+    backgroundImage: "",        // Default background image URL
+  };
+
+  // Check if user has chosen background color or image
+  const hasBackgroundColor = user.backgroundColor !== "#ffffff"; // Adjust default color as needed
+  const hasBackgroundImage = !!user.backgroundImage; // Check if there is a background image URL
 
   return (
     <>
       <div
         className="background-section"
         style={{
-          backgroundImage: `url(${backgroundImage})`,
+          backgroundImage: hasBackgroundImage ? `url(${user.backgroundImage})` : null,
+          backgroundColor: hasBackgroundColor ? user.backgroundColor : null,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -54,24 +66,29 @@ const User = () => {
                   key={index}
                   title={link.title}
                   link={link.link}
+                  color={user.buttonColor}
                 />
               ))}
               <div className="social-icons mt-4">
                 <IconComponent
                   url={user.social.instagramURL}
                   iconName="instagram"
+                  color={user.iconColor}
                 />
                 <IconComponent
                   url={user.social.facebookURL}
                   iconName="facebook"
+                  color={user.iconColor}
                 />
                 <IconComponent
                   url={user.social.twitterURL}
                   iconName="twitter"
+                  color={user.iconColor}
                 />
                 <IconComponent
                   url={user.social.discordURL}
                   iconName="controller"
+                  color={user.iconColor}
                 />
               </div>
               <hr className="white-line" />

@@ -1,19 +1,23 @@
 // src/features/user/userSlice.js
-import { createSlice } from '@reduxjs/toolkit';
+import { createSlice } from "@reduxjs/toolkit";
 
 export const userSlice = createSlice({
-  name: 'user',
+  name: "user",
   initialState: {
-    picture: '',
-    name: '',
-    profession: '',
+    picture: "",
+    name: "",
+    profession: "",
     social: {
-      twitter: '',
-      facebook: '',
-      instagram: '',
-      discord: '',
+      twitter: "",
+      facebook: "",
+      instagram: "",
+      discord: "",
     },
-    link:[],
+    link: [],
+    buttonColor: "#000000",
+    iconColor: "#ffffff",
+    backgroundColor: "#ffffff",
+    backgroundImage: "", 
   },
   reducers: {
     setUser: (state, action) => {

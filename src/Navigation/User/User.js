@@ -11,13 +11,13 @@ const User = () => {
     social: {},
     buttonColor: "#000000",
     iconColor: "#ffffff",
-    backgroundColor: "#ffffff", // Default background color
-    backgroundImage: "",        // Default background image URL
+    backgroundColor: "#ffffff", 
+    backgroundImage: "",       
   };
 
-  // Check if user has chosen background color or image
-  const hasBackgroundColor = user.backgroundColor !== "#ffffff"; // Adjust default color as needed
-  const hasBackgroundImage = !!user.backgroundImage; // Check if there is a background image URL
+
+  const hasBackgroundColor = user.backgroundColor !== "#ffffff"; 
+  const hasBackgroundImage = !!user.backgroundImage; 
 
   return (
     <>

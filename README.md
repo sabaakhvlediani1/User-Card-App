@@ -17,7 +17,10 @@ The User Card App allows users to create a customizable link page where you can 
 ## Screenshots
 ![Screenshot 2024-07-02 135619](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/4d4bebe9-c763-4921-a24e-e1973c696819)
 ![Screenshot 2024-07-02 135754](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/a8351b85-781f-48c5-852c-30ec98229fa8)
-![Screenshot 2024-07-02 135844](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/ad81498d-53a9-4c61-909d-ece391f54e41)
+![Screenshot 2024-07-03 152411](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/ef885769-1ad4-48eb-be0a-31e100b0e3b4)
+![Screenshot 2024-07-03 152508](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/db424da9-63f3-4142-9577-e0eb531c3314)
+![Screenshot 2024-07-03 152616](https://github.com/sabaakhvlediani1/User-Card-App/assets/74502365/7a051027-93a9-4460-b075-1347dad6b11c)
+
 
 
 
